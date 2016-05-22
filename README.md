@@ -1,7 +1,9 @@
 # X-Nav-Practica-Hoteles
 Repositorio para la práctica final de DAT/AT. Curso 2015-2016
 
-Nombre y titulación:
+No entregada
+
+<!-- Nombre y titulación:
 
 Rubén Sánchez Rivero. Ingeniería Telemática.
 
@@ -27,4 +29,4 @@ URL del vídeo demostración de la funcionalidad optativa, si se ha realizado fu
 
 URL a la aplicación:
 
-<a href="http://slnruben.github.io/X-Nav-Practica-Hoteles">Hoteles</a>
+<a href="http://slnruben.github.io/X-Nav-Practica-Hoteles">Hoteles</a> -->
