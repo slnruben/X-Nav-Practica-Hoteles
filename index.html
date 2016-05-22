@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="shortcut icon" href="favicon.ico" />
+
+<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+<link href="https://code.jquery.com/ui/jquery-ui-git.css" rel="stylesheet">
+
+<link href="css/alojamientos.css" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.3.min.js"></script>
+<script type="text/javascript" src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/ui/jquery-ui-git.js"></script>
+<script src="js/github.js"></script>
+<script type="text/javascript" src="js/alojamientos.js"></script>
+<title>Hotels</title>
+</head>
+<body>
+	<div id="tabs">
+		<img id="banner" src="https://openclipart.org/download/110317/nicubunu-Comic-characters-Laptop-ASAFCHE.svg"> 
+		<div id="header">
+			<input id="inputToken" placeholder="Github Token"></input>
+			<input id="inputUser" placeholder="Github User"></input>
+			<input id="inputRepo" placeholder="Github Repository"></input>
+			<button id="save" type="button" class="btn btn-success">Save</button>
+			<button id="load" type="button" class="btn btn-info">Load</button>
+		</div>
+		<ul>
+		    <li><a href="#tab1">General</a></li>
+		    <li><a href="#tab2">Management Collection</a></li>
+		    <li><a href="#tab3">Management Hosted</a></li>
+		</ul>
+		<div id="tab1">
+			<button id="get" type="button" class="btn btn-info col-md-4">Click here to get accomodations!</button>
+			<p id="result" class="col-md-12"></p>
+			<div id="generalList" class="col-md-3 list"></div>
+			<div id="map" class="col-md-6"></div>
+			<div id="collection" class="col-md-3" hidden="true">No collection selected</div>
+			<p class="col-md-12 info"></p>
+			<div id="carousel-example-generic" class="col-md-12 carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators"></ol>
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+					<div class="item active"></div>
+				</div>
+				<!-- Controls -->
+				<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" style="display:none;"></span>
+				</a>
+				<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+				    <span class="glyphicon glyphicon-chevron-right" style="display:none;"></span>
+				</a>
+			</div>
+		</div>
+		<div id="tab2">
+			<p>New Collection:
+				<input id="inputName" placeholder="Name"></input>
+				<button id="create" type="button" class="btn btn-primary">Create</button>
+				</button>
+			</p>
+			<div class="col-md-4">Created Collections
+				<ul id="createdCollections"></ul>
+			</div>
+			<div id="currentCollection" class="col-md-4">Current Collection
+			</div>
+			<div class="col-md-4">List of Hotels
+				<div id="collectionList" class="list"></div>
+			</div>
+		</div>
+		<div id="tab3">
+			<p class="col-md-6 info"></p>
+			<div id="hostedDiv" class="col-md-6">Hosted Users:
+				</br>
+				<input id="inputHost" placeholder="Google id of host"></input>
+				<button id="host" type="button" class="btn btn-success">Accomodate!!</button>
+				<div id="hostList" class="list">
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://apis.google.com/js/client.js?onload=handleClientLoad"></script>
+</body>
+</html>
+

@@ -1,0 +1,38 @@
+body{
+  background-color: black;
+}
+
+#header {
+  width: 60%;
+  margin: 0 auto; 
+}
+
+#tab1, #tab2 {
+  background-color: #cce0ff;
+}
+
+#map { 
+	height: 400px;
+}
+
+ul.hotel{
+	height:400px; 
+	overflow:hidden; 
+	overflow-y:scroll;
+}
+
+#generalList li.hotel.green { background-color: #00cc00; }
+
+#createdCollections li.blue { background-color: #3399ff; }
+
+#banner {
+  max-width:10%;
+  max-height:10%;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
