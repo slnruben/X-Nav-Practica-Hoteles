@@ -303,6 +303,7 @@ $(document).ready(function() {
   $("#host").click(accomodateUser);
   $("#save").click(saveData);
   $("#load").click(loadData);
+  localStorage.clear();
   if (localStorage.getItem("token")) {
     token = JSON.parse(localStorage.getItem("token"));
     user = JSON.parse(localStorage.getItem("user"));
