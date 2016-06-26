@@ -2,13 +2,10 @@ body{
   background-color: black;
 }
 
-#header {
-  width: 60%;
-  margin: 0 auto; 
-}
-
-#tab1, #tab2 {
-  background-color: #cce0ff;
+.page {
+  border-style: double;
+  border-radius: 10%;
+  padding: 200px;
 }
 
 #map { 
@@ -19,6 +16,12 @@ ul.hotel{
 	height:400px; 
 	overflow:hidden; 
 	overflow-y:scroll;
+  padding: 20px;
+}
+
+ul li {
+    background: #cce5ff;
+    margin: 5px;
 }
 
 #generalList li.hotel.green { background-color: #00cc00; }
@@ -26,8 +29,7 @@ ul.hotel{
 #createdCollections li.blue { background-color: #3399ff; }
 
 #banner {
-  max-width:10%;
-  max-height:10%;
+  max-height: 150px;
   border-radius: 50%;
   display: block;
   margin: 0 auto;
