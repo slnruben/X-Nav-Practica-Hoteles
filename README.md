@@ -35,12 +35,12 @@ Lista de funcionalidades opcionales que se hayan implementado, y breve descripci
 
 URL del vídeo demostración de la funcionalidad básica.
 
-<a href="https://youtu.be/2x43-_egqqs">Básica</a>
+<a href="https://youtu.be/2x43-_egqqs">Parte Básica</a>
 
 
 URL del vídeo demostración de la funcionalidad optativa, si se ha realizado funcionalidad optativa:
 
-<a href="https://youtu.be/5fQrSLNlOJ8">Básica</a>
+<a href="https://youtu.be/5fQrSLNlOJ8">Parte Opcional</a>
 
 
 URL a la aplicación:
